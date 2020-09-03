@@ -17,7 +17,7 @@ elec_meters:
   10: *iam
 
 appliances:
-- original_name: Firdge
+- original_name: Fridge
   type: fridge
   instance: 1
   meters: [2]

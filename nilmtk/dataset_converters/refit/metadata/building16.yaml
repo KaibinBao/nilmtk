@@ -1,5 +1,5 @@
-instance: 16
-original_name: House17
+instance: 15
+original_name: House16
 elec_meters:
   1: &clamp 
     site_meter: true
@@ -17,47 +17,47 @@ elec_meters:
   10: *iam
 
 appliances:
-- original_name: Freezer
-  type: freezer
+- original_name: Fridge-Freezer(1)
+  type: fridge freezer
   instance: 1
   meters: [2]
   
-- original_name: Fridge-Freezer
+- original_name: Fridge-Freezer(2)
   type: fridge freezer
-  instance: 1
+  instance: 2
   meters: [3]
 
-- original_name: Tumble Dryer
-  type: tumble dryer
+- original_name: Electric Heater(1)
+  type: electric space heater
   instance: 1
   meters: [4]
+
+- original_name: Electric Heater(2)
+  type: electric space heater
+  instance: 2
+  meters: [5]
 
 - original_name: Washing Machine
   type: washing machine
   instance: 1
-  meters: [5]
-
-- original_name: Computer Site
-  type: computer
-  instance: 1
   meters: [6]
   
-- original_name: Television Site
-  type: television
+- original_name: Dishwasher
+  type: dish washer
   instance: 1
   meters: [7]
   
-- original_name: Microwave
-  type: microwave
+- original_name: Computer Site
+  type: computer
   instance: 1
   meters: [8]
 
-- original_name: Kettle
-  type: kettle
+- original_name: Television Site
+  type: television
   instance: 1
   meters: [9]
   
-- original_name: TV Site(Bedroom)
-  type: television
-  instance: 2
+- original_name: Dehumidifier
+  type: dehumidifier
+  instance: 1
   meters: [10]

@@ -47,7 +47,7 @@ appliances:
   instance: 1
   meters: [7]
   
-- original_name: Television Site
+- original_name: Television
   type: television
   instance: 1
   meters: [8]

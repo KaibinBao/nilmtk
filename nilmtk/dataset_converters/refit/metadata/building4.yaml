@@ -32,19 +32,19 @@ appliances:
   instance: 1
   meters: [4]
 
-- original_name: Tumble Dryer
-  type: tumble dryer
+- original_name: Washing Machine(1)
+  type: washing machine
   instance: 1
   meters: [5]
 
 - original_name: Washing Machine(1)
   type: washing machine
-  instance: 1
+  instance: 2
   meters: [6]
   
-- original_name: Washing Machine(2)
-  type: washing machine
-  instance: 2
+- original_name: Computer Site
+  type: computer
+  instance: 1
   meters: [7]
   
 - original_name: Television Site

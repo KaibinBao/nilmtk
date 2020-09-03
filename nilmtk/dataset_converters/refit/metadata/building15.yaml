@@ -1,5 +1,5 @@
-instance: 15
-original_name: House16
+instance: 14
+original_name: House15 # house 14 is missing from the dataset
 elec_meters:
   1: &clamp 
     site_meter: true
@@ -17,47 +17,47 @@ elec_meters:
   10: *iam
 
 appliances:
-- original_name: Fridge-Freezer(1)
+- original_name: Fridge-Freezer
   type: fridge freezer
   instance: 1
   meters: [2]
   
-- original_name: Fridge-Freezer(2)
-  type: fridge freezer
-  instance: 2
-  meters: [3]
-
-- original_name: Electric Heater(1)
-  type: electric space heater
+- original_name: Tumble Dryer
+  type: tumble dryer
   instance: 1
-  meters: [4]
-
-- original_name: Electric Heater(2)
-  type: electric space heater
-  instance: 2
-  meters: [5]
+  meters: [3]
 
 - original_name: Washing Machine
   type: washing machine
   instance: 1
-  meters: [6]
-  
+  meters: [4]
+
 - original_name: Dishwasher
   type: dish washer
   instance: 1
-  meters: [7]
-  
+  meters: [5]
+
 - original_name: Computer Site
   type: computer
   instance: 1
-  meters: [8]
-
+  meters: [6]
+  
 - original_name: Television Site
   type: television
   instance: 1
+  meters: [7]
+  
+- original_name: Microwave
+  type: microwave
+  instance: 1
+  meters: [8]
+
+- original_name: Kettle
+  type: kettle
+  instance: 1
   meters: [9]
   
-- original_name: Dehumidifier
-  type: dehumidifier
+- original_name: Toaster
+  type: toaster
   instance: 1
   meters: [10]

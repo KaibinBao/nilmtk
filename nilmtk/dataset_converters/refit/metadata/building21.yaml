@@ -1,5 +1,5 @@
-instance: 14
-original_name: House15 # house 14 is missing from the dataset
+instance: 20
+original_name: House21
 elec_meters:
   1: &clamp 
     site_meter: true
@@ -37,27 +37,27 @@ appliances:
   instance: 1
   meters: [5]
 
-- original_name: Computer Site
-  type: computer
+- original_name: Food Mixer
+  type: food processor
   instance: 1
   meters: [6]
   
-- original_name: Television Site
+- original_name: Television
   type: television
   instance: 1
   meters: [7]
   
-- original_name: Microwave
-  type: microwave
+- original_name: Kettle/Toaster
+  type: kettle
   instance: 1
   meters: [8]
 
-- original_name: Hi-Fi
-  type: audio system
+- original_name: Vivarium
+  type: appliance
   instance: 1
   meters: [9]
   
-- original_name: Toaster
-  type: toaster
+- original_name: Pond Pump
+  type: pond pump
   instance: 1
   meters: [10]

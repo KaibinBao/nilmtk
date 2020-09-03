@@ -27,8 +27,8 @@ appliances:
   instance: 1
   meters: [3]
 
-- original_name: Washer Dryer
-  type: washer dryer
+- original_name: Dryer
+  type: tumble dryer
   instance: 1
   meters: [4]
 

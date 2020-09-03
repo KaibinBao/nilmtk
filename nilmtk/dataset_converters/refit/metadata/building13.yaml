@@ -22,8 +22,8 @@ appliances:
   instance: 1
   meters: [2]
   
-- original_name: Freezer
-  type: freezer
+- original_name: Unknown
+  type: unknown
   instance: 1
   meters: [3]
 
@@ -37,24 +37,24 @@ appliances:
   instance: 1
   meters: [5]
 
-- original_name: ???
-  type: unknown
+- original_name: Tumble Dryer
+  type: tumble dryer
   instance: 1
   meters: [6]
   
-- original_name: Network Site
-  type: broadband router
-  instance: 1
+- original_name: Television Site
+  type: television
+  instance: 2
   meters: [7]
   
-- original_name: Microwave
-  type: microwave
+- original_name: Computer Site
+  type: computer
   instance: 1
   meters: [8]
 
 - original_name: Microwave
   type: microwave
-  instance: 2
+  instance: 1
   meters: [9]
   
 - original_name: Kettle

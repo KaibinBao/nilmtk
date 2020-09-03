@@ -37,7 +37,7 @@ appliances:
   instance: 1
   meters: [5]
 
-- original_name: Desktop Computer
+- original_name: Computer Site
   type: computer
   instance: 1
   meters: [6]
@@ -47,7 +47,7 @@ appliances:
   instance: 1
   meters: [7]
   
-- original_name: Microwave
+- original_name: Combination Microwave
   type: microwave
   instance: 1
   meters: [8]

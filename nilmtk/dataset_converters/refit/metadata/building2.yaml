@@ -32,7 +32,7 @@ appliances:
   instance: 1
   meters: [4]
 
-- original_name: Television Site
+- original_name: Television
   type: television
   instance: 1
   meters: [5]
@@ -57,7 +57,7 @@ appliances:
   instance: 1
   meters: [9]
   
-- original_name: Overhead Fan
+- original_name: Oven Extractor Fan
   type: fan
   instance: 1
   meters: [10]

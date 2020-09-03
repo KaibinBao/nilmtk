@@ -22,12 +22,12 @@ appliances:
   instance: 1
   meters: [2]
   
-- original_name: Freezer(1)
+- original_name: Freezer (Garage)
   type: freezer
   instance: 1
   meters: [3]
 
-- original_name: Freezer(2)
+- original_name: Freezer
   type: freezer
   instance: 2
   meters: [4]
