@@ -495,6 +495,10 @@ def safe_resample(data, **resample_kwargs):
         return fill_method(how(data.resample(rule, **resample_kwargs)))
        
 
+    if not data.index.is_unique:
+        warnings.warn("Index is non-unique, dropping duplicates...")
+        data = data.loc[np.logical_not(data.index.duplicated())]
+
     try:
         dups_in_index = data.index.duplicated(keep='first')
 
