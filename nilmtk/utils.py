@@ -470,6 +470,7 @@ def safe_resample(data, **resample_kwargs):
         axis = all_resample_kwargs.pop('axis', None)
         on = all_resample_kwargs.pop('on', None)
         level = all_resample_kwargs.pop('level', None)
+        limit = all_resample_kwargs.pop('limit', None)
 
         resample_kwargs = {}
         if axis is not None: resample_kwargs['axis'] = axis
@@ -478,7 +479,7 @@ def safe_resample(data, **resample_kwargs):
 
         fill_method_str = all_resample_kwargs.pop('fill_method', None)
         if fill_method_str:
-            fill_method = lambda df: getattr(df, fill_method_str)()
+            fill_method = lambda df: getattr(df, fill_method_str)(limit=limit)
         else:
             fill_method = lambda df: df
             
